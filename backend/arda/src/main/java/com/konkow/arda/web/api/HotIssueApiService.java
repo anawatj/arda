@@ -12,7 +12,7 @@ import javax.ws.rs.core.Response;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import com.konkow.arda.domain.hotissue.HotIssue;
 import com.konkow.arda.repository.IHotIssueRepository;
