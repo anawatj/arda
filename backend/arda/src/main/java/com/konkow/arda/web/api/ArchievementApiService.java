@@ -22,7 +22,7 @@ public class ArchievementApiService {
 
 	
 	
-	@Autowired
+	/*@Autowired
 	private IArchievementRepository aRepository;
 	
 	
@@ -45,7 +45,7 @@ public class ArchievementApiService {
 	{
 		Archievement result= aRepository.findByKey(key);
 		return Response.ok(result).build();
-	}
+	}*/
 	
 	
 }

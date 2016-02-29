@@ -11,4 +11,9 @@
 	<bean id="newsRepository" class="com.konkow.arda.repository.impl.NewsRepository"></bean>
 	<bean id="productRepository" class="com.konkow.arda.repository.impl.ProductRepository"></bean>
 	<bean id="archievementRepository" class="com.konkow.arda.repository.impl.ArchievementRepository"></bean>
+	<bean id="hotIssueRepository" class="com.konkow.arda.repository.impl.HotIssueRepository"></bean>
+	<bean id="knowledgeRepository" class="com.konkow.arda.repository.impl.KnowledgeRepository"></bean>
+	<bean id="contactRepository" class="com.konkow.arda.repository.impl.ContactRepository"></bean>
+	<bean id="questionRepository" class="com.konkow.arda.repository.impl.QuestionRepository"></bean>
+	<bean id="videoRepository" class="com.konkow.arda.repository.impl.VideoRepository"></bean>
 </beans>
