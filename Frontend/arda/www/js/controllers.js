@@ -42,7 +42,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('NewsCtrl', function($scope,$http) {
-    $scope.list=
+    $scope.newses=
     [
       {id:1,title:"News1"},
       {id:2,title:"News2"},
@@ -59,16 +59,16 @@ angular.module('starter.controllers', [])
 
     };
 })
-.controller('NewsDetailCtrl', function($scope,$http, $stateParams) {
-    $scope.model={};
+.controller('NewsDetailCtrl', function($scope,$http) {
+    $scope.news={};
     $scope.init=function()
     {
 
     };
 })
-.controller('ProductCtrl',function($scope,$http,$startParams)
+.controller('ProductCtrl',function($scope,$http)
 {
-    $scope.list=
+    $scope.products=
    [
       {id:1,title:"Product1"},
       {id:2,title:"Product2"},
@@ -85,55 +85,55 @@ angular.module('starter.controllers', [])
 
    };
 })
-.controller('ProductDetailCtrl',function($scope,$http,$startParams)
+.controller('ProductDetailCtrl',function($scope,$http)
 {
-    $scope.model={};
+    $scope.product={};
 })
-.controller('HotIssueCtrl',function($scope,$http,$startParams)
+.controller('HotIssueCtrl',function($scope,$http)
 {
-  $scope.list={};
+  $scope.hotissues={};
 })
-.controller('HotIssueDetailCtrl',function($scope,$http,$startParams)
+.controller('HotIssueDetailCtrl',function($scope,$http)
 {
-    $scope.model={};
+    $scope.hotissue={};
 })
-.controller("ArchievementCtrl",function($scope,$http,$startParams)
+.controller("ArchievementCtrl",function($scope,$http)
 {
-    $scope.list=[];
+    $scope.archievements=[];
 })
-.controller("ArchievementDetailCtrl",function($scope,$http,$startParams)
+.controller("ArchievementDetailCtrl",function($scope,$http)
 {
-    $scope.model={};
+    $scope.archievement={};
 })
-.controller("KnowledgeCtrl",function($scope,$http,$startParams)
+.controller("KnowledgeCtrl",function($scope,$http)
 {
-    $scope.list=[];
+    $scope.knowledges=[];
 })
-.controller("KnowledgeDetailCtrl",function($scope,$http,$startParams)
+.controller("KnowledgeDetailCtrl",function($scope,$http)
 {
-    $scope.model={};
+    $scope.knowledge={};
 })
-.controller('VideoCtrl',function($scope,$http,$startParams)
+.controller('VideoCtrl',function($scope,$http)
 {
-  $scope.list=[];
+  $scope.videos=[];
 })
-.controller("VideoDetailCtrl",function($scope,$http,$startParams)
+.controller("VideoDetailCtrl",function($scope,$http)
 {
-  $scope.model={};
+  $scope.video={};
 })
-.controller('QuestionCtrl',function($scope,$http,$startParams)
+.controller('QuestionCtrl',function($scope,$http)
 {
-  $scope.list=[];
+  $scope.questions=[];
 })
-.controller("ContactCtrl",function($scope,$http,$startParams)
+.controller("ContactCtrl",function($scope,$http)
 {
-  $scope.model={};
+  $scope.contact={};
 })
-.controller('MainCtrl',function($scope,$http,$startParams)
+.controller('MainCtrl',function($scope,$http)
 {
   
 })
-.controller('LoginCtrl',function($scope,$http,$startParams)
+.controller('LoginCtrl',function($scope,$http)
 {
 
 });
