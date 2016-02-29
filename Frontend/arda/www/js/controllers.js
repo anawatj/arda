@@ -42,7 +42,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('NewsCtrl', function($scope,$http) {
-    $scope.newses=
+    $scope.list=
     [
       {id:1,title:"News1"},
       {id:2,title:"News2"},
@@ -60,7 +60,7 @@ angular.module('starter.controllers', [])
     };
 })
 .controller('NewsDetailCtrl', function($scope,$http) {
-    $scope.news={};
+    $scope.model={};
     $scope.init=function()
     {
 
@@ -68,7 +68,7 @@ angular.module('starter.controllers', [])
 })
 .controller('ProductCtrl',function($scope,$http)
 {
-    $scope.products=
+    $scope.list=
    [
       {id:1,title:"Product1"},
       {id:2,title:"Product2"},
@@ -87,47 +87,47 @@ angular.module('starter.controllers', [])
 })
 .controller('ProductDetailCtrl',function($scope,$http)
 {
-    $scope.product={};
+    $scope.model={};
 })
 .controller('HotIssueCtrl',function($scope,$http)
 {
-  $scope.hotissues={};
+  $scope.list={};
 })
 .controller('HotIssueDetailCtrl',function($scope,$http)
 {
-    $scope.hotissue={};
+    $scope.model={};
 })
 .controller("ArchievementCtrl",function($scope,$http)
 {
-    $scope.archievements=[];
+    $scope.list=[];
 })
 .controller("ArchievementDetailCtrl",function($scope,$http)
 {
-    $scope.archievement={};
+    $scope.model={};
 })
 .controller("KnowledgeCtrl",function($scope,$http)
 {
-    $scope.knowledges=[];
+    $scope.list=[];
 })
 .controller("KnowledgeDetailCtrl",function($scope,$http)
 {
-    $scope.knowledge={};
+    $scope.model={};
 })
 .controller('VideoCtrl',function($scope,$http)
 {
-  $scope.videos=[];
+  $scope.list=[];
 })
 .controller("VideoDetailCtrl",function($scope,$http)
 {
-  $scope.video={};
+  $scope.model={};
 })
 .controller('QuestionCtrl',function($scope,$http)
 {
-  $scope.questions=[];
+  $scope.model=[];
 })
 .controller("ContactCtrl",function($scope,$http)
 {
-  $scope.contact={};
+  $scope.model={};
 })
 .controller('MainCtrl',function($scope,$http)
 {
